@@ -181,7 +181,6 @@ analyzer:
     combinators_ordering: info
     curly_braces_in_flow_control_structures: info
     dangling_library_doc_comments: info
-    diagnostic_describe_all_properties: info
     directives_ordering: info
     implementation_imports: info
     join_return_with_assignment: info
@@ -259,7 +258,6 @@ linter:
     - dangling_library_doc_comments #
     - depend_on_referenced_packages #
     - deprecated_consistency #
-    - diagnostic_describe_all_properties #
     - directives_ordering #
     - discarded_futures #
     - empty_catches #
