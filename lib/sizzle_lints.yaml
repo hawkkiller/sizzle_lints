@@ -65,7 +65,6 @@ analyzer:
     control_flow_in_finally: warning
     depend_on_referenced_packages: warning
     deprecated_consistency: warning
-    discarded_futures: warning
     empty_catches: warning
     empty_constructor_bodies: warning
     empty_statements: warning
@@ -258,7 +257,6 @@ linter:
     - depend_on_referenced_packages #
     - deprecated_consistency #
     - directives_ordering #
-    - discarded_futures #
     - empty_catches #
     - empty_constructor_bodies #
     - empty_statements #
