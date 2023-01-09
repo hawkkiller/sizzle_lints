@@ -7,9 +7,6 @@ analyzer:
       "**/*.gr.dart",
       "**/*.gen.dart",
     ]
-  strong-mode:
-    implicit-casts: false
-    implicit-dynamic: false
   language:
     strict-casts: true
     strict-inference: true
