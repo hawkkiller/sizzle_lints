@@ -36,6 +36,7 @@ analyzer:
     recursive_getters: error
     valid_regexps: error
     void_checks: error
+    inference_failure_on_function_invocation: error
     # warning
     annotate_overrides: warning
     avoid_catches_without_on_clauses: warning
@@ -286,6 +287,7 @@ linter:
     - omit_local_variable_types #
     - only_throw_errors #
     - overridden_fields #
+    - inference_failure_on_function_invocation
     # - package_api_docs TURN ON FOR LIBRARIES
     - package_names #
     - package_prefixed_library_names #
