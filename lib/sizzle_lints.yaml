@@ -287,7 +287,6 @@ linter:
     - omit_local_variable_types #
     - only_throw_errors #
     - overridden_fields #
-    - inference_failure_on_function_invocation
     # - package_api_docs TURN ON FOR LIBRARIES
     - package_names #
     - package_prefixed_library_names #
