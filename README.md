@@ -1,13 +1,21 @@
 # sizzle_lints
 
-## Overview
+Efficient lints for Dart and Flutter projects, combined together with love.
 
-This package contains a bunch of prod-ready lints for Dart and Flutter projects. It is based on [Effective Dart](https://dart.dev/guides/language/effective-dart) and some practical knowledge of the author. Use it to make your code more readable and maintainable.
+## Usage
 
-## Use
-
-Head to `analysis_options.yaml` file
+To use these lints in your project, add the following to your `analysis_options.yaml`:
 
 ```yaml
-include: package:sizzle_lints/sizzle_lints.yaml
+include: package:sizzle_lints/lints.yaml
+```
+
+### Dart Code Metrics
+
+To use the Dart Code Metrics lints in your project, add the following to your `analysis_options.yaml`:
+
+```yaml
+dart_code_metrics:
+  extends:
+    - package:sizzle_lints/dcm.yaml
 ```
