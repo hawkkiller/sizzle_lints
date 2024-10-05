@@ -1,7 +1,7 @@
 name: sizzle_lints
 description: A bunch of strict rules for Dart and Flutter projects.
 repository: https://github.com/sizzleco/sizzle_lints
-version: 2.1.2
+version: 2.1.3
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

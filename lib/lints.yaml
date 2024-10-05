@@ -164,7 +164,7 @@ linter:
   - type_init_formals
   - type_literal_in_constant_pattern
   - unawaited_futures
-  - unnecessary_await_in_return
+  # - unnecessary_await_in_return
   - unnecessary_brace_in_string_interps
   - unnecessary_breaks
   - unnecessary_const
