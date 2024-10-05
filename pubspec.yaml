@@ -5,3 +5,5 @@ version: 2.1.1
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
+dev_dependencies:
+  dart_code_metrics_presets: ^2.16.0
