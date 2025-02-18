@@ -111,7 +111,6 @@ linter:
   - omit_local_variable_types
   - only_throw_errors
   - overridden_fields
-  - package_api_docs
   - package_names
   - package_prefixed_library_names
   - parameter_assignments
@@ -149,7 +148,7 @@ linter:
   - prefer_typing_uninitialized_variables
   - prefer_void_to_null
   - provide_deprecation_message
-  - public_member_api_docs
+  # - public_member_api_docs
   - recursive_getters
   - require_trailing_commas
   - sized_box_for_whitespace

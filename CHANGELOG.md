@@ -5,6 +5,10 @@ All notable changes to this project is documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.1.5] - 2025-02-18
+
+- Removed "public_member_api_docs" rule
+
 ## [2.1.4] - 2025-02-18
 
 - Removed "prefer_expression_function_bodies" rule
